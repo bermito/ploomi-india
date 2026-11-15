@@ -39,3 +39,20 @@
   .coffee-card{min-width:0}
   .coffee-image{padding-inline:20px}
 }
+
+/* Kerala business focus and audit repairs. */
+.site-header{border-bottom:0}
+.hero h1{font-size:clamp(62px,6.1vw,86px)}
+.hero-symbol{width:48px;height:48px;flex:0 0 48px;object-fit:contain}
+.hand-note{white-space:pre-line}
+.little-star{display:none}
+.product-hero>*{min-width:0}
+.product-visual .pack{max-width:100%}
+@media(max-width:900px){.site-header nav{max-height:calc(100dvh - 125px);overflow-y:auto;overscroll-behavior:contain}}
+@media(max-width:600px){.hero h1{font-size:clamp(44px,10.8vw,62px)}.product-hero{grid-template-columns:minmax(0,1fr)}.hero .actions{flex-wrap:wrap;gap:12px 20px}.hero .button{font-size:11px}.hero-symbol{width:42px;height:42px;flex-basis:42px}}
+
+.ribbon-symbol{display:inline-block;width:28px;height:28px;object-fit:contain;vertical-align:middle}.ribbon i{font-size:0}
+
+@media(max-width:600px){.product-visual{overflow:hidden}.product-visual .pack{width:min(230px,85%);transform:rotate(-3deg)}.product-visual .pack-label strong{font-size:25px}}
+
+.find-coffee,.journal-feature{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,7rem);align-items:start}.find-coffee{background:#e8efff}.find-coffee form{display:grid;gap:10px}.find-coffee label{font-weight:700;font-size:14px;margin-top:8px}.find-coffee select,.find-coffee input{width:100%;padding:15px;font:inherit;color:#0a2f9a;background:#fff;border:1px solid #0a2f9a;border-radius:0}.find-coffee button{justify-self:start;margin-top:12px;cursor:pointer}.journal-feature{background:#f5efdf}.journal-feature>div:nth-child(2){border-top:2px solid #0a2f9a;padding-top:25px}.journal-feature h3{font-size:clamp(1.6rem,3vw,3rem);line-height:1.06}.coffee-card.reveal{animation:risein .6s ease-out both}@keyframes risein{from{opacity:.6;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}@media(max-width:700px){.find-coffee,.journal-feature{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){.coffee-card.reveal{animation:none}}
