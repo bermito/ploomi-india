@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ploomi-coffee.bermitocoffee.chatgpt.site/sitemap.xml
